@@ -11,6 +11,7 @@ lerna-debug.log*
 build/Release
 
 # Dependency directories
+folios-exportar/
 node_modules/
 jspm_packages/
 
