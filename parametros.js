@@ -5,7 +5,7 @@ const parametros = () => {
   return(
     {
       nombre: "",
-      desde: 801,
+      desde: 601,
       hasta: 1200,
       moldes: 4,
       digitos: 6,
