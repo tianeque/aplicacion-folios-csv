@@ -1,9 +1,11 @@
 const createCsvWriter = require('csv-writer').createArrayCsvWriter;
 const {folios, nombreArchivo, cabecera} = require('./folios');
+const parametros = require('./parametros');
+const {ruta} = parametros
 
 const csvWriter = createCsvWriter({
   header: cabecera,
-  path: './folios-exportar/' + 'F' + nombreArchivo + '.csv'
+  path: ruta + 'F' + nombreArchivo + '.csv'
 });
 
 const records = folios

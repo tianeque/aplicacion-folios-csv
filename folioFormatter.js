@@ -1,3 +1,5 @@
+// Se encarga de pasar dar formato al folio con caracteres y numero de digitos.
+
 const parametros = require('./parametros')
 
 function folioFormatter(numero) {

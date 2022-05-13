@@ -1,7 +1,15 @@
 const parametros = require('./parametros')
 const folioFormatter = require('./folioFormatter')
-function outputFileName({nombre}) {
-  return nombre
+
+function outputFileName(parametros) {
+  const {nombre, desde, hasta, moldes} = parametros
+  let nombreDeSalida
+  if (nombre === "") {
+    nombreDeSalida = `folio ${desde} al ${hasta} ${moldes} moldes`
+  } else {
+    nombreDeSalida = nombre
+  }
+  return nombreDeSalida
 }
 
 function headersCsv({moldes}) {
