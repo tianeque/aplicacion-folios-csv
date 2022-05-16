@@ -1,6 +1,6 @@
+//const isValid = require('./validaciones')
 const parametros = require('./parametros')
 const folioFormatter = require('./folioFormatter')
-
 
 
 function headersCsv({moldes}) {

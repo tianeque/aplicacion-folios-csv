@@ -5,9 +5,9 @@ const parametros = () => {
   return(
     {
       nombre: "",
-      desde: 601,
-      hasta: 1200,
-      moldes: 4,
+      desde: 5001,
+      hasta: 7000,
+      moldes: 2,
       digitos: 6,
       caracterRelleno: '0',
       sobrantes: 2,
